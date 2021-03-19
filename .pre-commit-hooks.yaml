@@ -90,5 +90,7 @@
 -   id: staticcheck
     name: 'staticcheck'
     entry: run-staticcheck.sh
+    files: '\.go$'
     language: 'script'
+    pass_filenames: false
     description: "Runs `staticcheck`, requires https://staticcheck.io/docs/#installation"

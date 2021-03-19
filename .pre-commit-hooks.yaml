@@ -87,3 +87,8 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go mod vendor`, requires golang"
+-   id: staticcheck
+    name: 'staticcheck'
+    entry: run-staticcheck.sh
+    language: 'script'
+    description: "Runs `staticcheck`, requires https://staticcheck.io/docs/#installation"
